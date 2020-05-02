@@ -6,8 +6,21 @@
 		{
 			"CEnvSoundscape::UpdateForPlayer"
 			{
-				"library"		"server"
-				"linux"			"@_ZN14CEnvSoundscape15UpdateForPlayerER11ss_update_t"
+				"library"	"server"
+				"linux"		"@_ZN14CEnvSoundscape15UpdateForPlayerER11ss_update_t"
+			}
+		}
+	}
+
+	"csgo"
+	{
+		"Signatures"
+		{
+			"CEnvSoundscape::UpdateForPlayer"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x83\xE4\xF0\x81\xEC\xA8\x00\x00\x00\x56\x8B\xF1\x57\x80\xBE\xDC\x03\x00\x00\x00"
+				"linux"		"\x55\x89\xE5\x81\xEC\xE8\x00\x00\x00\x89\x5D\xF4\x8B\x5D\x08\x89\x75\xF8\x8B\x75\x0C\x89\x7D\xFC\x80\xBB\xF4\x03\x00\x00\x00"
 			}
 		}
 	}

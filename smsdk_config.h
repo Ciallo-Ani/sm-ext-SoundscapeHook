@@ -40,7 +40,7 @@
 /* Basic information exposed publicly */
 #define SMEXT_CONF_NAME			"Soundscape Hook"
 #define SMEXT_CONF_DESCRIPTION	"Hooks InRangeOfPlayer"
-#define SMEXT_CONF_VERSION		"0.1"
+#define SMEXT_CONF_VERSION		"0.2"
 #define SMEXT_CONF_AUTHOR		"george"
 #define SMEXT_CONF_URL			"http://forums.alliedmods.net"
 #define SMEXT_CONF_LOGTAG		"CSoundscapeHook"
